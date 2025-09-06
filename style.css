@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-.calculator {
+.calculadora {
     background-color: #2d2d2d;
     border-radius: 10px;
     padding: 20px;
@@ -22,7 +22,7 @@ body {
     width: 300px;
 }
 
-.display {
+.tela {
     background-color: #1a1a1a;
     color: white;
     padding: 20px;
@@ -33,7 +33,7 @@ body {
     min-height: 60px;
 }
 
-.history {
+.historico {
     color: #888;
     font-size: 0.8em;
     margin-bottom: 10px;
@@ -41,7 +41,7 @@ body {
     min-height: 20px;
 }
 
-.buttons {
+.botoes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -64,17 +64,17 @@ button:active {
     transform: scale(0.95);
 }
 
-.number {
+.numero {
     background-color: #404040;
     color: white;
 }
 
-.operator {
+.operador {
     background-color: #ff9500;
     color: white;
 }
 
-.clear {
+.limpar {
     background-color: #ff3b30;
     color: white;
 }

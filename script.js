@@ -3,8 +3,8 @@ let previousNumber = null;
 let operator = null;
 let shouldResetDisplay = false;
 
-const display = document.getElementById('display');
-const history = document.getElementById('history');
+const display = document.getElementById('tela');
+const history = document.getElementById('historico');
 
 function updateDisplay() {
     display.textContent = currentNumber;
